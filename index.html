@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/viajes.svg" type="image/png">
+    <title>Viajes Chile</title>
+    <!-- Bootstrap 4.6.1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous">
+    <!-- CSS local -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="fixed-top bg-navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand font-weight-bold align-middle" href="#carousel-inicial"><img
+                                src="./assets/img/viajes.svg" width="40" height="45" alt="Logo Viajes Chile" />Viajes
+                            Chile</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation"><span
+                                class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#carousel-inicial">Inicio <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#whoarewe">Quiénes somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#highlights">Destacados</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Carousel -->
+    <div id="carousel-inicial" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-inicial" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-inicial" data-slide-to="1"></li>
+            <li data-target="#carousel-inicial" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h4 class="font-weight-bold">Desierto de Atacama</h4>
+                    <p class="font-weight-bold">El lugar no polar más árido de la Tierra.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h4 class="font-weight-bold">Isla de Pascua</h4>
+                    <p class="font-weight-bold">El interés de historiadores y viajeros de todo el mundo.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h4 class="font-weight-bold">Isla Magdalena</h4>
+                    <p class="font-weight-bold">Una de las más importantes pingüineras del sur de Chile.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carousel-inicial" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carousel-inicial" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+
+    <!-- About -->
+    <article id="whoarewe" class="d-sm-none d-md-block">
+        <div class="container text-center mt-5">
+            <h1 class="display-3 font-weight-bold">¿Quiénes somos?</h1>
+            <hr>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4">
+                    <div class="my-4">
+                        <div class="text-center py-3 bg-somos">
+                            <i class="fab fa-avianex fa-2x"></i>
+                        </div>
+                        <div class="text-left mt-3">
+                            <p>Nuestro proyecto de posicionarnos en el mercado de viajes tiene como objetivo
+                                proporcionar lo que busca el viajero actual, que es la organización de la rapidez y los
+                                viajes que desde el principio reflejen los intereses e inquietudes de nuestros clientes.
+                                <br>
+                                Apostamos por la calidad y la creatividad en la organización de viajes de ocio,
+                                vacaciones y ofertas de grupos, donde destaca nuestra experiencia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                    <div class="my-4">
+                        <div>
+                            <p class="parrafo-diferente text-left">Pudimos descubrir qué hace que los productos de viaje
+                                sean una experiencia de viaje única y qué buscan los viajeros hoy en día, con base en la
+                                innovación continua de productos y las ofertas de temporada en el Caribe, América del
+                                Sur, Europa y destinos remotos.</p>
+                            <div class="text-center">
+                                <img class="pb-2 img-somos" src="./assets/img/favicon.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-center py-3 bg-somos">
+                            <i class="fab fa-atlassian fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                    <div class="my-4">
+                        <div class="text-center py-3 bg-somos">
+                            <i class="fab fa-hubspot fa-2x"></i>
+                        </div>
+                        <div class="text-left mt-3">
+                            <p>Hay muchos tipos de paquetes para satisfacer las necesidades de los pasajeros. Estos son
+                                los puntos principales de nuestra estrategia comercial y competencia en el mercado.
+                                <br>
+                                Negociar con los principales operadores turísticos permitirá a los clientes encontrar lo
+                                que buscan en un destino determinado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Destacados -->
+    <article id="highlights" class="container-fluid py-2 bg-article-1">
+        <div class="container text-center mt-5">
+            <h1 class="display-3 font-weight-bold">Destacados</h1>
+            <hr>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="card text mx-auto mb-4" style="width: 16rem;">
+                        <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Torres del Paine</h5>
+                            <p class="card-text">Conocido por sus altas montañas, los témpanos de azul brillante que se
+                                aferran a los glaciares y las pampas doradas.</p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-light" data-toggle="modal"
+                                    data-target="#altiplano-1">¡Cuéntame más!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="card text mx-auto mb-4" style="width: 16rem;">
+                        <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Reserva Nacional Los Flamencos</h5>
+                            <p class="card-text">Destaca por la protección de las especies de fauna. En lo que a flora
+                                se refiere están en estado de conservación vulnerable</p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-light" data-toggle="modal"
+                                    data-target="#altiplano-2">¡Cuéntame más!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="card text mx-auto mb-4" style="width: 16rem;">
+                        <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Parque Laguna Chaxa</h5>
+                            <p class="card-text">Ubicada a 60 kilómetros de San Pedro de Atacama y está dentro del
+                                Sistema de Protección de áreas silvestres de la CONAF.</p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-light" data-toggle="modal"
+                                    data-target="#altiplano-3">¡Cuéntame más!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="card text mx-auto mb-4" style="width: 16rem;">
+                        <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Ecorregión Bosque Baldiviano</h5>
+                            <p class="card-text">Caracterizada por un clima lluvioso y bosques verdes que
+                                albergan vida única, como las araucarias y los alerces.</p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-light" data-toggle="modal"
+                                    data-target="#altiplano-4">¡Cuéntame más!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Contacto -->
+    <section id="contact" class="container my-5">
+        <div class="container text-center">
+            <h1 class="display-3 font-weight-bold">Contacto</h1>
+            <hr>
+            <p class="mb-0">Si deseas ponerte en contacto con nosotros ¡No dudes en escribirnos!</p>
+            <p>Además, estaremos atentos a cualquier duda o recomendación que tengas.</p>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput" class="font-weight-bold">Nombre</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="font-weight-bold">Correo Electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Ingresa tu correo electrónico">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1" class="font-weight-bold">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Déjanos tu mensaje, duda o recomendación ¡Estaremos atentos!"></textarea>
+            </div>
+            <div class="contact-button-inner text-right">
+                <button type="submit" class="btn btn-light">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="py-4">
+                        <h1 class="titulo-footer font-weight-bold">VIAJES CHILE</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="py-4">
+                        <span class="pl-2"><a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-github-square fa-4x footer-icon"></i></a></span>
+                        <span class="pl-2"><a href="https://cl.linkedin.com/" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-linkedin fa-4x footer-icon"></i></a></span>
+                        <span class="pl-2"><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-twitter-square fa-4x footer-icon"></i></a></span>
+                        <span class="pl-2"><a href="https://www.facebook.com/" target="_blank"
+                                rel="noopener noreferrer"><i
+                                    class="fab fa-facebook-square fa-4x footer-icon"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div class="modal fade" id="altiplano-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Torres del Paine</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img class="img-modal" src="./assets/img/card1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>El parque nacional Torres del Paine es una de las áreas silvestres protegidas más
+                                importantes de Chile. Se encuentra ubicado entre la Cordillera de los Andes y la estepa
+                                Patagónica, en la Comuna de Torres del Paine, provincia de Última Esperanza, entre los
+                                51° de latitud sur y 72° 57' de longitud oeste, distante unos 150 km de Puerto Natales y
+                                a 318.2 km de Punta Arenas. Fue creada el año 1959 y es administrada por la Corporación
+                                Nacional Forestal.
+                                <br>
+                                Conocido internacionalmente por la belleza escénica de su entorno, recibe anualmente más
+                                de 280 000 visitantes, la mayoría de ellos extranjeros, convirtiéndose en especial de la
+                                revista National Geographic, las Torres del Paine fueron escogidas como el quinto lugar
+                                más hermoso del mundo. Igualmente, el parque fue seleccionado como la octava maravilla
+                                del mundo en 2013, luego de que recibiera más de cinco millones de votos en el concurso
+                                que realizó el sitio Virtual Tourist.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">¡Vamos allá!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="altiplano-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Reserva Nacional Los Flamencos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img class="img-modal" src="./assets/img/card2.jpg" alt="">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>La Reserva Nacional los Flamencos fue creada en 1990 por la CONAF, posee 73 986,5 ha, se
+                                ubica en la cuenca del salar de Atacama, en la comuna de San Pedro de Atacama, Región de
+                                Antofagasta, en Chile.
+                                <br>
+                                Esta Reserva está dividida en 7 sectores ubicados a diferentes alturas, cada uno con
+                                condiciones climáticas particulares, lo que provoca que cada sector posea diferente
+                                población vegetal y animal.
+                                <br>
+                                Algunos sitios de la reserva poseen importancia arqueológica ya que en ellos se
+                                encuentran vestigios de pueblos precolombinos, como la Aldea de Tulor.
+                                El clima predominante es el desértico, pero debido al tamaño de la reserva en ella
+                                existen diferencias climaticas importantes.
+                                <br>
+                                En los sectores del Salar de Tara - Salar Aguas Calientes, Salar de Pujsa y Lagunas
+                                Miscanti - Miñiques, la temperatura media mensual varia entre los 0 y los 7 °C, mientras
+                                que la media máxima se encuentra entre los 3 y los 12 °C y la media mínima entre 3 y 5
+                                °C.
+                                <br>
+                                En los sectores Salar de Atacama (Soncor y Quelana), Valle de la Luna y Tambillo la
+                                media anual se encuentra entre los 9 y los 19 °C, la media mínima entre 0 y 16 °C y la
+                                media máxima entre 10 y 20 °C.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">¡Vamos allá!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="altiplano-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Parque Laguna Chaxa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img class="img-modal" src="./assets/img/card3.jpg" alt="Imagen de Los Payachatas">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>La laguna está a unos 7 km de Toconao y un poco menos de 50 km de San Pedro de Atacama.
+                                Se encuentra dentro del Sistema de Protección de áreas silvestres de la CONAF, y se
+                                encuadra dentro de la Reserva nacional Los Flamencos. Se considera uno de los mejores
+                                lugares en Chile para avistar flamencos, junto al Salar de Surire en la Región de Arica
+                                y Parinacota.
+                                <br>
+                                La Laguna Chaxa es una laguna altiplática de estratos fangosos y poca profundidad. La
+                                Laguna permite la proliferación de microinvertebrados y de formas microscópicas, que son
+                                la base de la alimentación de los flamencos, entre otras aves.
+                                La única entrada y salida superficial de la laguna es el canal Burro Muerto, que la
+                                comunica con la laguna Barros Negros.
+                                <br>
+                                La flora y fauna circundando Chaxa es escasa, principalmente matojos, debido al calor
+                                reinante y la gran variación de temperatura entre la noche y el día. Las precipitaciones
+                                en verano son muy escasas, con una máxima promedio de 3 mm. Además de los flamencos, de
+                                los que hay tres tipos: La Parina Grande, Parina Chica y el Flamenco Chileno, se puede
+                                encontrar el zorro culpeo, el ratón tuco-tuco, ratón oliváceo y dos especies de reptiles
+                                endémicos del Salar de Atacama.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">¡Vamos allá!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="altiplano-4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Ecorregión Bosque Valdiviano</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img class="img-modal" src="./assets/img/card4.jpg" alt="">
+                        </div>
+                        <div class="col-sm-5">
+                            <p>El bosque valdiviano, también llamado selva valdiviana, o bosque andino patagónico es una
+                                ecorregión del centro-sur de Chile y Patagonia Argentina. Se caracteriza por tener
+                                bosques siempre verdes de múltiples estratos, en un clima templado-lluvioso u oceánico.
+                                Se trata del único bosque templado lluvioso y bosque templado caducifolio de América del
+                                Sur; correspondiendo al Distrito fitogeográfico subantártico valdiviano.
+                                <br>
+                                En el ámbito académico, se prefiere usar las denominaciones bosque templado de tipo
+                                valdiviano, bosque templado lluvioso valdiviano o bosque laurifolio valdiviano y dejar
+                                de lado el apelativo de selva, que ha adquirido un sentido restringido al ámbito
+                                tropical. No obstante, esta última denominación sigue siendo referida coloquialmente y
+                                en el sector turístico.
+                                <br>
+                                Se ha planteado que más del 90 % del área protegida en la ecorregión se concentra en
+                                lugares fuera de las áreas prioritarias, generalmente, en zonas elevadas de la
+                                cordillera de los Andes, mientras que las áreas de mayor diversidad de tipos
+                                florísticos, máxima concentración de riqueza de especies vegetales leñosas, mamíferos,
+                                anfibios y peces de agua dulce permanecen fuera del sistema de áreas protegidas del
+                                estado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">¡Vamos allá!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery 3.5.1 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- Bootstrap Bundle 4.6.1 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <!-- JavaScript local -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
